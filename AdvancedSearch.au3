@@ -17,7 +17,7 @@ If _Singleton(@ScriptName, 1) = 0 Then
    Exit
 EndIf
 
-FileInstall('Assets\License.jpg', @TempDir & '\License.jpg', 1)
+FileInstall('assets\License.jpg', @TempDir & '\License.jpg', 1)
 Global $link = '\'
 
 Func searchPressed()
